@@ -37,7 +37,7 @@ jobs:
     - name: Checkout tests repository
       uses: actions/checkout@v4
       with:
-        repository: GGEdu/DWESTests
+        repository: rpalaolozano/ed-ud3-tests
         ref: "ud${{ env.BRANCH_PREFIX }}"
         token: ${{ secrets.TESTS_TOKEN }}
         path: ./temp
